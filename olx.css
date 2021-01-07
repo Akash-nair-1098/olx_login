@@ -1,3 +1,11 @@
+marquee {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
 .bg-model {
     width: 100%;
     height: 100%;
@@ -57,7 +65,7 @@
 
 #main {
     box-shadow: 3px 3px 3px 3px black;
-    margin-top: 100px;
+    margin-top: absolute;
     text-align: center;
     background-color: white;
     width: 500px;

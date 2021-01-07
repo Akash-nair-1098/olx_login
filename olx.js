@@ -49,14 +49,20 @@ var box=document.querySelector(".email");
 
         } )
 
-        
+
 
         function phone(txt) { 
             let bt = document.getElementById('bSubmit');
+            var res=isNaN(txt.value)
             if (txt.value != '') {
+                if(res){
+                    bt.disabled = true;
+                }
+                else{
                 bt.disabled = false;
+                }
             }
-         else {
+         else{
              bt.disabled = true;
          }
          }
